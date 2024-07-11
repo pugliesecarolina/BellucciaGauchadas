@@ -96,7 +96,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 26px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -105,18 +105,22 @@ h6 {
 
 .header .logo span {
   color: var(--accent-color);
-  font-size: 36px;
+  font-size: 26px;
 }
+
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
-  font-size: 14px;
+  background: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
   padding: 8px 26px;
   margin: 0;
-  border-radius: 50px;
+  border-radius: 50px 0px 50px 50px;
   transition: 0.3s;
+  border: 3px solid #000000;
 }
 
 .header .btn-getstarted:hover,
@@ -667,21 +671,22 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #000000;
   margin: 5px 0 30px 0;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
 }
+
 
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
@@ -766,6 +771,7 @@ section,
   text-align: center;
   border: 4px solid color-mix(in srgb, var(--default-color), transparent 30%);
   padding: 22px;
+  border-radius: 30px 0px 30px 30px;
 }
 
 .about .book-a-table h3 {
